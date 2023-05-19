@@ -1,0 +1,19 @@
+{
+  "plugins": ["unused-imports","prettier"],
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": 1,
+    "no-console": 1,
+    "jsx-a11y/alt-text": 2,
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/exhaustive-deps": 1,
+    "react/display-name": [
+      0,
+      {
+        "ignoreTranspilerName": false
+      }
+    ],
+    "unused-imports/no-unused-imports": "warn"
+  }
+}
